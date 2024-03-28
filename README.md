@@ -16,7 +16,7 @@ Real data analysis project with Python Pandas about sales electronics 📈
 This data analysis projects aims to analyze and answer business questions about 12 months worth of sales data, about consumer electronics. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
 
 ##  📁 File Structure
-Add a file structure here with the basic details about files, below is an example.
+Here below is the folder structure containing the files used in the analysis, and the python notebook:
 
 ```
 Sales_Analysis
@@ -36,22 +36,44 @@ Sales_Analysis
 └── README.md
 ```
 
-qui descrizione colonne
+Those are the varaibles for each .csv file
 
 | ORDER ID | PRODUCT | QUANTITY ORDERED | PRICE EACH | ORDER DATE | PURCHASE ADDRESS 
 |----|------------|-------|-------|-------|-------|
 
 
 ##  🔧 Task #1
-here task n°1
+Cleaning our data. Tasks during this section include:
+
+- Drop NaN values from DataFrame
+- Removing rows based on a condition
+- Change the type of columns (to_numeric, to_datetime, astype)
 
 ##  🔧 Task #2
-here task n°2
+Data exploration section. In this section we explore 5 high level business questions related to our data:
+
+- What was the best month for sales? How much was earned that month?
+- What city sold the most product?
+- What time should we display advertisemens to maximize the likelihood of customer’s buying product?
+- What products are most often sold together?
+- What product sold the most? Why do you think it sold the most?
+
+To answer these questions we walk through many different pandas & matplotlib methods. They include:
+
+- Concatenating multiple csvs together to create a new DataFrame (pd.concat)
+- Adding columns
+- Parsing cells as strings to make new columns (.str)
+- Using the .apply() method
+- Using groupby to perform aggregate analysis
+- Plotting bar charts and lines graphs to visualize our results
+- Labeling our graphs
 
 ##  💾 Resources
-Add important resources here
+[Github Repository](https://github.com/KeithGalli/Pandas-Data-Science-Tasks) 
+
+[YouTube Video](https://www.youtube.com/watch?v=eMOA1pPVUc4&t=802s)
 
 ## 💡 Credit
-Credit the authors here.
+[Keith Galli](https://github.com/KeithGalli)
 
 
