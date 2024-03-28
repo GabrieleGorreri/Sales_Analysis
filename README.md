@@ -1,2 +1,2 @@
 # Sales_Analysis
-Sales Analysis Project about electronics products
+Sales Analysis Project about consumer electronics 
