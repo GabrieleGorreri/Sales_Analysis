@@ -36,6 +36,7 @@ Sales_Analysis
 │   ├── Sales_April_2019.csv
 │   ├── Sales_August_2019.csv
 ├── Sales_Analysis.ipynb
+├── Graphs
 └── README.md
 ```
 
