@@ -15,6 +15,9 @@ Real data analysis project with Python Pandas about sales electronics 📈
 ##  📄 About
 This data analysis projects aims to analyze and answer business questions about 12 months worth of sales data, about consumer electronics. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
 
+### Tools
+- Python: Pandas, Plotly
+
 ##  📁 File Structure
 Here below is the folder structure containing the files used in the analysis, and the python notebook:
 
